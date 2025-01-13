@@ -16,12 +16,6 @@ const Navbar = () => {
             className="object-contain"
           />
         </Link>
-        <CustomButton
-          title="Sign In"
-          btnType="button"
-          containerStyles="bg-white rounded-full text-primary-blue py-2 min-w-[130px]"
-          handleClick={() => console.log('clicked')}
-        />
       </nav>
     </header>
   );
